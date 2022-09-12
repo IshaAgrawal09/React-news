@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.headlines {
+  padding: 3% 0;
+}
+.headlines h2 {
+  color: #3f3e3e;
+  margin-left: 8%;
+}
+.trendingMain {
+  display: flex;
+  align-items: center;
+}
+.trendingBtn {
+  box-shadow: 0.5px 0.5px 4px #a5a4a4;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 1.5%;
+  margin: 0 1%;
+  font-size: 18px;
+}
+.trending {
+  flex: initial;
+  width: 90%;
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 1%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.trending::-webkit-scrollbar {
+  display: none;
+}
+
+.signleTrending img {
+  width: 270px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0.5px 1px 5px #808080;
+}
+.single {
+  position: relative;
+}
+.signleTrending p {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  padding: 1% 1% 2%;
+  text-align: center;
+}
