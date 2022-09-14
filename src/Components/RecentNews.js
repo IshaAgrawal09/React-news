@@ -23,7 +23,7 @@ const RecentNews = () => {
                   </div>
                   <div className="recentNewsInfo">
                     <p>{item.source.name}</p>
-                    <h4>{item.title}</h4>
+                    <a href={item.url}>{item.title}</a>
                     <div className="extraInfo">
                       <div>
                         <i className="fa-solid fa-clock"></i>

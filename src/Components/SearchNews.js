@@ -18,7 +18,7 @@ const SearchNews = () => {
 
                 <div className="searchNewsInfo">
                   <p id="sourceName">{item.source.name}</p>
-                  <h3>{item.title}</h3>
+                  <a href={item.url}>{item.title}</a>
                   <div className="extraInfo">
                     <div>
                       <i className="fa-solid fa-clock"></i>

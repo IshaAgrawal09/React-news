@@ -27,7 +27,8 @@ img {
   color: #e93d25;
   font-weight: 500;
 }
-.searchNewsInfo h3 {
+.searchNewsInfo a {
+  text-decoration: none;
   margin: 1.5% 0 2%;
   color: #3f3e3e;
   font-weight: 500;

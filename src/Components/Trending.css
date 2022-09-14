@@ -46,7 +46,7 @@
 .single {
   position: relative;
 }
-.signleTrending p {
+.signleTrending a {
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
   position: absolute;
@@ -54,4 +54,5 @@
   left: 0;
   padding: 1% 1% 2%;
   text-align: center;
+  text-decoration: none;
 }

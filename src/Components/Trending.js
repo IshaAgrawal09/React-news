@@ -33,7 +33,7 @@ const Trending = () => {
                         ) : (
                           <img src="noImage.jpeg" alt="" />
                         )}
-                        <p>{item.title}</p>
+                        <a href={item.url}>{item.title}</a>
                       </div>
                     </div>
                   ) : null;

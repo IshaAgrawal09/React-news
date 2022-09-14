@@ -22,6 +22,7 @@ export function CartProvider({ children }) {
         }
       });
   }, []);
+  console.log(data);
 
   // SEARCH OPTION
   const submit = (event) => {
@@ -42,7 +43,7 @@ export function CartProvider({ children }) {
   const mode = (event) => {
     if (event.target.checked) {
       setTheme({
-        grayScale: 1 ,
+        grayScale: 1,
       });
     } else {
       setTheme({ grayScale: 0.2 });
